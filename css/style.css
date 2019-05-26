@@ -16,6 +16,8 @@ body, html{
     src: url(../fonts/Gotham.woff)
 }
 
+/*conteudo*/
+
 body{
     background-image: url('../images/bg.PNG');
     background-color: #f3f3f3;
