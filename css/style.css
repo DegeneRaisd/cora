@@ -94,20 +94,23 @@ main{
 
 .listas-sessao ul li{
     padding: 0.4em;
+    width: 200px;
 }
 
 .item-lista{
     display: inline-block;
     width: 30%;
+    min-width: 200px;
+    padding-left: -15px;
 }
 
 .sep{
     position: relative;
-    top: -27px;
+    top: -31px;
 }
 
 .sep li{
-    width: 300px;
+    white-space: nowrap;
 }
 
 .last{
