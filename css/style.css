@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gotham;
+    font-weight: normal;
+}
+
+body, html{
+    height: 100%;
+    font-size: 16px;
+}
+
+@font-face{
+    font-family: Gotham;
+    src: url(../fonts/Gotham.woff)
+}
+
+body{
+    background-image: url('../images/bg.PNG');
+    background-color: #f3f3f3;
+    background-size: 100% 190%;
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 75%;
+    margin: 20px 0px 20px 7%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.logo-top{
+    margin: 30px;
+}
+
+.cora-video{
+    opacity: 0.9;
+}
+
+.visita{
+    background-color: #005b6b;
+    margin-top: -5px; 
+    color: rgba(255,255,255, 0.7);
+    text-align: center;
+    padding: 60px;
+}
+
+.text-visita{
+    display: inline-block; 
+    text-align: left;
+}
+
+.text-visita span{
+    font-size: 1.1em;
+}
+
+.pode{
+    margin: 7% 14%;
+    color: #005b6b;
+    font-size: 1.2em;
+}
+
+.divisor{
+    margin-top: 3%;
+    border-color: rgb(80,88,87, 0.1);
+}
+
+.img-s2{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img-s2 img{
+    display: inline-block;
+    margin: 3%;
+    width: 26%;
+}
+
+.listas-sessao{
+    margin-top: 4%;
+    font-size: 0.8em;
+    color: #7da6ae;
+}
+
+.listas-sessao ul{
+    list-style-position: inside;
+    width: 30%;
+    padding: 3%;
+    display: inline-block;
+    position: relative;
+}
+
+.listas-sessao ul li{
+    padding: 0.4em;
+}
+
+.item-lista{
+    display: inline-block;
+    width: 30%;
+}
+
+.sep{
+    position: relative;
+    top: -27px;
+}
+
+.sep li{
+    width: 300px;
+}
+
+.last{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.mais{
+    color: #cc922d;
+    padding-bottom: 16%;
+}
+
+.mais p{
+    margin-top: 3%;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    color: #797979;
+}
+
+b{
+    color: #474747;
+}
