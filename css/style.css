@@ -40,6 +40,17 @@ main{
     opacity: 0.9;
 }
 
+.visita-mob{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/bg_vis_mob.PNG');
+    color: white;
+    font-size: 1.4em;
+    padding: 40px;
+    text-align: center;
+    display: none;
+}
+
 .visita{
     background-color: #005b6b;
     margin-top: -5px; 
@@ -138,7 +149,8 @@ b{
 
 .contato{
     position: fixed;
-    top: 14%;
+    top: 50%;
+    transform: translateY(-50%);
     right: 0;
     width: 28%;
     background-color: #f8c242;
@@ -158,7 +170,7 @@ b{
 
 .form{
     width: 100%;
-    max-width: 200px;
+    max-width: 230px;
     margin-top: 10%;
     font-size: 0.7em;
 }
@@ -190,7 +202,7 @@ b{
 
 .form p{
     margin-top: -15px;
-    font-size: 7.5px;
+    font-size: 0.6em;
     white-space: nowrap;
     color: #bb8911;
 }
@@ -206,3 +218,74 @@ b{
 }
 
 /* responsividade */
+
+@media screen and (max-width: 840px){
+    main{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .logo-top{
+        position: relative;
+        left: 50%;
+        transform: translateX(-55%);
+        width: 70%;
+    }
+
+    .contato{
+        position: static;
+        top: 0;
+        transform: translateY(0);
+        right: 0;
+        padding: 0;
+        width: 100%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        text-transform: uppercase;
+        margin-top: -5px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .form{
+        width: 80%;
+        max-width: 100%;
+        margin-top: 6%;
+        font-size: 0.9em;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .formulario p{
+        display: inline-block;
+        position: relative;
+        top: 10px;
+    }
+
+    .form input{
+        height: 40px;
+        margin: 1% 0 5% 0;
+    }
+
+    .form select{
+        height: 40px;
+        margin: 1% 0 5% 0;
+    }
+    
+    .form p{
+        font-size: 0.7em;
+    }
+
+    .text-final{
+        text-align: center;
+    }
+
+    .visita{
+        display: none;
+    }
+
+    .visita-mob{
+        display: block;
+    }
+}
