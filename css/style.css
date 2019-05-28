@@ -23,6 +23,7 @@ body{
     background-color: #f3f3f3;
     background-size: 100% 190%;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 main{
