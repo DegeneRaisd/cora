@@ -208,6 +208,18 @@ main{
     margin-bottom: 2em;
 }
 
+.lista-mobile{
+        margin-top: 4%;
+        font-size: 0.8em;
+        color: #474747;
+        display: none;
+        padding-bottom: 10%;
+}
+
+.lista-mobile p{
+    padding: 6px;
+}
+
 .mais{
     color: #cc922d;
     padding-bottom: 16%;
@@ -362,30 +374,12 @@ b{
         display: inline-block;
     }
     
-    .item-lista{
+    .listas-sessao{
+        display: none;
+    }
+
+    .lista-mobile{
         display: block;
-        width: auto;
-        min-width: auto;
-        padding-left: 0;
-        text-align: center;
-        color: #474747;
-    }
-
-    .item-lista ul{
-        list-style-type: none;
-        list-style-position: normal;
-        width: 100%;
-        padding: 0;
-        display: inline-block;
-        position: relative;
-    }
-
-    .sep{
-        margin-top: 5%;
-    }
-
-    .sep li{
-        white-space: normal;
     }
 
     .mais{
