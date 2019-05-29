@@ -23,7 +23,6 @@ body{
     background-color: #f3f3f3;
     background-size: 100% 190%;
     background-repeat: no-repeat;
-    overflow-y: hidden;
 }
 
 main{
@@ -31,6 +30,7 @@ main{
     margin: 20px 0px 20px 7%;
     background-color: #ffffff;
     border-radius: 30px;
+    overflow: hidden;
 }
 
 .logo-top{
@@ -39,113 +39,6 @@ main{
 
 .cora-video{
     opacity: 0.9;
-}
-
-.visita-mob{
-    width: 100%;
-    height: auto;
-    background-image: url('../images/bg_vis_mob.PNG');
-    color: white;
-    font-size: 1.4em;
-    padding: 40px;
-    text-align: center;
-    display: none;
-}
-
-.visita{
-    background-color: #005b6b;
-    margin-top: -5px; 
-    color: rgba(255,255,255, 0.7);
-    text-align: center;
-    padding: 60px;
-}
-
-.text-visita{
-    display: inline-block; 
-    text-align: left;
-}
-
-.text-visita span{
-    font-size: 1.1em;
-}
-
-.pode{
-    margin: 7% 14%;
-    color: #005b6b;
-    font-size: 1.2em;
-}
-
-.divisor{
-    margin-top: 3%;
-    border-color: rgb(80,88,87, 0.1);
-}
-
-.img-s2{
-    width: 100%;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.img-s2 img{
-    display: inline-block;
-    margin: 3%;
-    width: 26%;
-}
-
-.listas-sessao{
-    margin-top: 4%;
-    font-size: 0.8em;
-    color: #7da6ae;
-}
-
-.listas-sessao ul{
-    list-style-position: inside;
-    width: 30%;
-    padding: 3%;
-    display: inline-block;
-    position: relative;
-}
-
-.listas-sessao ul li{
-    padding: 0.4em;
-    width: 200px;
-}
-
-.item-lista{
-    display: inline-block;
-    width: 30%;
-    min-width: 200px;
-    padding-left: -15px;
-}
-
-.sep{
-    position: relative;
-    top: -31px;
-}
-
-.sep li{
-    white-space: nowrap;
-}
-
-.last{
-    margin-top: 4em;
-    margin-bottom: 2em;
-}
-
-.mais{
-    color: #cc922d;
-    padding-bottom: 16%;
-}
-
-.mais p{
-    margin-top: 3%;
-    font-size: 0.9em;
-    line-height: 1.5em;
-    color: #797979;
-}
-
-b{
-    color: #474747;
 }
 
 .contato{
@@ -208,6 +101,142 @@ b{
     color: #bb8911;
 }
 
+.visita-mob{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/bg_vis_mob.PNG');
+    color: white;
+    font-size: 1.4em;
+    padding: 40px;
+    text-align: center;
+    display: none;
+}
+
+.visita{
+    background-color: #005b6b;
+    margin-top: -5px; 
+    color: rgba(255,255,255, 0.7);
+    text-align: center;
+    padding: 60px;
+}
+
+.text-visita{
+    display: inline-block; 
+    text-align: left;
+}
+
+.text-visita span{
+    font-size: 1.1em;
+}
+
+.pode{
+    margin: 7% 14%;
+    color: #005b6b;
+    font-size: 1.2em;
+}
+
+.divisor{
+    margin-top: 3%;
+    border-color: rgb(80,88,87, 0.1);
+}
+
+.img-s2{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.img-s2 img{
+    display: inline-block;
+    margin: 3%;
+    width: 26%;
+}
+
+.img-mobile span{
+    color: #474747;
+    display: inline-block;
+    width: calc(33% - 8px);
+}
+
+.img-mobile span:nth-of-type(2){
+    position: relative;
+    top: 7px;
+}
+
+.img-mobile{
+    display: none;
+}
+
+.listas-sessao{
+    margin-top: 4%;
+    font-size: 0.8em;
+    color: #7da6ae;
+}
+
+.listas-sessao ul{
+    list-style-position: inside;
+    width: 30%;
+    padding: 3%;
+    display: inline-block;
+    position: relative;
+}
+
+.listas-sessao ul li{
+    padding: 0.4em;
+    width: 200px;
+}
+
+.item-lista{
+    display: inline-block;
+    width: 30%;
+    min-width: 200px;
+    padding-left: -15px;
+}
+
+.sep{
+    position: relative;
+    top: -31px;
+}
+
+.sep li{
+    white-space: nowrap;
+}
+
+.last{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.mais{
+    color: #cc922d;
+    padding-bottom: 16%;
+}
+
+.mais p{
+    margin-top: 3%;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    color: #797979;
+}
+
+b{
+    color: #474747;
+}
+
+.agendar-visita{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    background-color: #3778d5;
+    color: #f6f6f6;
+    position: relative;
+    top: -14px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    display: none;
+}
+
 .fim-pagina{
     width: 80%;
     margin: 0 auto;
@@ -230,7 +259,7 @@ b{
     .logo-top{
         position: relative;
         left: 50%;
-        transform: translateX(-55%);
+        transform: translateX(-62%);
         width: 70%;
     }
 
@@ -288,5 +317,117 @@ b{
 
     .visita-mob{
         display: block;
+    }
+
+    .divisor{
+        display: none;
+    }
+
+    .pode{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .pode span{
+        display: inline-block;
+        margin-top: 5%;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+
+    .img-s2{
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    .img-s2 img{
+        display: inline-block;
+        margin: 0;
+        width: calc(33% - 8px);
+    }
+
+    .img-desktop{
+        display: none;
+    }
+
+    .img-mobile{
+        display: block;
+    }
+
+    .atencao{
+        margin-top: 15%;
+        display: inline-block;
+    }
+    
+    .item-lista{
+        display: inline-block;
+        width: auto;
+        min-width: auto;
+        padding-left: 0;
+        text-align: center;
+        color: #474747;
+    }
+
+    .item-lista ul{
+        list-style-type: none;
+        list-style-position: normal;
+        width: 100%;
+        padding: 0;
+        display: inline-block;
+        position: relative;
+    }
+
+    .sep{
+        margin-top: 5%;
+    }
+
+    .sep li{
+        white-space: normal;
+    }
+
+    .mais{
+        color: #eaa938;
+        padding: 14% 3%;
+        background-image: url('../images/mais-mob-bg.PNG');  
+        background-size: cover;
+    }
+    
+    .mais p{
+        margin-top: 3%;
+        font-size: 0.9em;
+        line-height: 1.5em;
+        color: #fff;
+    }
+    
+    strong{
+        color: #fff;
+        font-weight: bold;
+
+    }
+
+    .agendar-visita{
+        display: inline-block;
+    }
+
+    .fim-pagina{
+        width: 100%;
+        margin-top: 8%;
+        text-align: center;
+        padding: 0% 3% 3% 3%;
+        background-color: #fff;
+    }
+    
+    .fim-pagina img{
+        display: inline-block;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .form p{
+        font-size: 0.5em;
     }
 }

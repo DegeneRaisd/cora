@@ -18,7 +18,7 @@
                 <source src="video/cora.mp4" type="video/mp4">
             </video><!--video-->
             <section class="contato">
-                <div class="formulario">
+                <div id="form" class="formulario">
                     <p>
                         Agende sua visita <br />
                         com um clique
@@ -68,12 +68,22 @@
                 <div>
                     <span>Na cora o idoso pode:</span>
                     <hr class="divisor"><!--linha divisora-->
-                    <div class="img-s2">
+                    <div class="img-s2 img-desktop">
                         <img src="images/morar-ico.PNG" />
                         <img src="images/passar-ico.PNG" />
                         <img src="images/dia-ico.PNG" />
                     </div><!--imagens da sessão-->
-                    <span>Com toda a atenção e cuidado da nossa equipe composta por:</span>
+                    <div class="img-s2 img-mobile">
+                        <img src="images/morar-mob.PNG" />
+                        <img src="images/passar-mob.PNG" />
+                        <img src="images/dia-mob.PNG" />
+                        <span>Morar</span>
+                        <span>Passar uma <br /> temporada</span>
+                        <span>Passar o dia</span>
+                    </div><!--imagens da sessão mobile-->
+                    <div class="atencao">
+                        <span>Com toda a atenção e cuidado da nossa equipe composta por:</span>
+                    </div><!--atencao text-->        
                     <div class="listas-sessao">
                         <div class="item-lista">
                             <ul>
@@ -92,7 +102,6 @@
                         <div class="item-lista sep">
                             <ul class="list2">
                                 <li>Professores de artes, música</li>
-                                <li>Cuidadores</li>
                             </ul>
                         </div>              
                     </div><!--listas-sessao-->
@@ -101,12 +110,15 @@
                 <div class="mais">
                     <span>E mais!</span>
                     <p>
-                        Na Cora, oferecemos <b>6 refeições diárias</b> para os residentes. 
+                        Na Cora, oferecemos <strong>6 refeições diárias</strong> para os residentes. 
                         Todas elas elaboradas por nutricionistas que controlam
                         dietaas e restrições alimentares, equilibrando o sabor dos
                         alimentos com as necessidades dos idosos.
                     </p>
                 </div><!--e mais-->
+                <a class="agendar-visita" href="#form">
+                    agende sua visita
+                </a><!--agende sua visita-->
             </section><!--sessão o idoso pode-->
         </main><!--conteudo principal-->
         <footer class="fim-pagina">
