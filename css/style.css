@@ -23,6 +23,10 @@ body{
     background-color: #f3f3f3;
     background-size: 100% 190%;
     background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+    overflow-x: hidden;
+>>>>>>> 51ec08b22051e8da1155dab8c240f1a4e16f2aed
 }
 
 main{
@@ -318,6 +322,7 @@ b{
     .visita-mob{
         display: block;
     }
+<<<<<<< HEAD
 
     .divisor{
         display: none;
@@ -431,3 +436,6 @@ b{
         font-size: 0.5em;
     }
 }
+=======
+}
+>>>>>>> 51ec08b22051e8da1155dab8c240f1a4e16f2aed
