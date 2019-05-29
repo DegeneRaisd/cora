@@ -257,6 +257,11 @@ b{
 
 .fim-pagina img{
     width: 45%;
+    display: inline-block;
+}
+
+.f-mob{
+    display: none;
 }
 
 /* responsividade */
@@ -408,10 +413,18 @@ b{
 
     .fim-pagina{
         width: 100%;
-        margin-top: 8%;
+        margin-top: 0;
         text-align: center;
-        padding: 0% 3% 3% 3%;
+        padding: 8% 3% 3% 3%;
         background-color: #fff;
+    }
+
+    .f-des{
+        display: none;
+    }
+
+    .f-mob{
+        display: inline-block;
     }
     
     .fim-pagina img{
